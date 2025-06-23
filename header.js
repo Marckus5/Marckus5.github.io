@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
                 <li class="nav-item"><a class="nav-link" href="scratch.html">Scratch Game</a></li> <!-- TODO add Scratch Project -->
                 <!--<li class="nav-item"><a class="nav-link" href="#">Projects</a></li>-->
 
-                <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+
                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             </ul>
         </div>
