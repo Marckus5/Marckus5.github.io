@@ -1,4 +1,4 @@
-class Heaasda extends HTMLElement {
+class Header extends HTMLElement {
   constructor() {
     super();
   }
@@ -55,7 +55,7 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer class="">
-            <p text-align="center">Footer</p>
+            <p text-align="center">By Marckus5</p>
             <hr>
             <a class="nav-link" href="https://cs50.harvard.edu/">For CS50</p>
         </footer>
@@ -64,6 +64,6 @@ class Footer extends HTMLElement {
 }
 
 
-
+customElements.define('head-template', Header);
 customElements.define('navbar-template', Navbar);
 customElements.define('footer-template', Footer);
