@@ -1,64 +1,245 @@
 <!doctype html>
 
 <html lang="en" data-bs-theme="dark">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link href="assets/css/styles.css" rel="stylesheet" />
-    <script src="assets/js/header.js" defer></script>
-    <title>My Webpage - About</title>
-  </head>
-  <body>
-    <navbar-template></navbar-template>
 
-    <div class="jumbotron bg-primary">
-      <h1>About</h1>
-    </div>
-    <div class="container-sm">
-      <div class="card" style="width: 300px">
-        <div class="card-header"><h2>Mark Valencia</h2></div>
-        <img class="card-img-top" src="img_avatar3.png" alt="Card image" />
-        <div class="card-body">
-          <h3>Background</h3>
-          <p>Applied Physicist</p>
-          <h3>Education</h3>
-          <p>University of the Philippines</p>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="/assets/css/styles.css" rel="stylesheet" />
+  <script src="/assets/js/header.js" defer></script>
+  <title>My Webpage - About</title>
+</head>
+
+<body>
+  <navbar-template></navbar-template>
+
+  <div class="jumbotron bg-primary">
+    <h1>About</h1>
+  </div>
+
+  <!-- Curriculum Vitae -->
+  <div class="container-sm">
+    <div class="main-body">
+      <div class="row gutters-sm">
+
+        <!-- General Info -->
+        <div class="col-md-4 mb-3">
+
+          <!-- Summary -->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="d-flex flex-column align-items-center text-center">
+                <img src="assets/img/id1_lowquality.jpg" alt="Admin" class="rounded-circle" width="150"
+                  style="width:150px;height:150px;object-fit:cover;">
+                <div class="mt-3">
+                  <h4>Mark Valencia</h4>
+                  <p class="text-secondary mb-1">Applied Physics Graduate - UP Los Baños</p>
+                  <p class="text-muted font-size-sm">Antipolo City, Rizal</p>
+                  <!-- <button class="btn btn-primary">Follow</button> -->
+                  <!-- <button class="btn btn-outline-primary">Message</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Info -->
+          <div class="card mb-3">
+            <div class="card-body">
+
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Full Name</h6>
+                </div>
+                <div class="col-sm-9 text-secondary" alt="Name">Mark Aldrin A. Valencia</div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Email</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  mav.aldrin@gmail.com
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Mobile</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">
+                  (+63) 977-181-4715
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Address</h6>
+                </div>
+                <div class="col-sm-9 text-secondary">Brgy. San Luis, Antipolo City, Rizal 1870, Philippines</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="card mt-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-github mr-2 icon-inline">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>Github</h6>
+                <span class="text-secondary"><a href="http://github.com/marckus5">Marckus5</a></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0"><img src="https://www.google.com/s2/favicons?domain=facebook.com"
+                    alt="linkedin logo" />Facebook</h6>
+                <span class="text-secondary"><a href="https://www.facebook.com/mark.aldrin.valencia.2024/">Mark Aldrin
+                    Valencia</a></span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                <h6 class="mb-0"><img src="https://www.google.com/s2/favicons?domain=linkedin.com"
+                    alt="linkedin logo" />LinkedIn</h6>
+                <span class="text-secondary"><a href="https://www.linkedin.com/in/markaldrin">MarkAldrin</a></span>
+              </li>
+            </ul>
+          </div>
+
         </div>
-        <div class="card-footer">
-          <h3>Website</h3>
-          <ul>
-            <li class="link">
-              <img
-                src="https://www.google.com/s2/favicons?domain=linkedin.com"
-                alt="linkedin logo"
-              />
-              <a href="https://www.linkedin.com/in/markaldrin">LinkedIn</a>
-            </li>
-            <li class="link">
-              <img
-                src="https://www.google.com/s2/favicons?domain=google.com"
-                alt="gmail logo"
-              />
-              <a href="https://mail.google.com">Gmail</a>
-            </li>
-          </ul>
+
+        <!-- Education & Experience -->
+        <div class="col-sm-8 mb-3">
+
+          <!-- Education -->
+          <div class="row gutters-sm mb-3">
+            <div class="card h-100">
+
+              <div class="card-header">
+                <h4 class="mb-0">Education</h4>
+              </div>
+
+              <div class="card-body">
+
+                <!-- Put Content Here -->
+                <div class="accordion accordion-flush" id="educationAccordion">
+
+                  <!-- Accordion Item -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading-1">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse-1" aria-expanded="false" aria-controls="flush-collapse-1">
+                        <!-- Date -->
+                        <div class="col-sm-3"><b>Jan - Apr 2025</b></div>
+                        <!-- Course/Position -->
+                        <div class="col-sm-3">CS50x: Introduction to Computer Science</div>
+                        <!-- Institution/Organization -->
+                        <div class="col">HavardX Online Course</div>
+                      </button>
+                    </h2>
+
+                    <div id="flush-collapse-1" class="accordion-collapse collapse" aria-labelledby="flush-heading-1">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading-2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse-2" aria-expanded="false" aria-controls="flush-collapse-2">
+                        <div class="col-sm-3"><b>2020-2024</b></div>
+                        <div class="col-sm-3">Bachelor of Science in Applied Physics</div>
+                        <div class="col">University of the Philippines Los Baños</div>
+                      </button>
+                    </h2>
+
+                    <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-heading-2">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Experience -->
+          <div class="row gutters-sm mb-3">
+
+            <div class="card h-100">
+              <div class="card-header">
+                <h4 class="mb-0">Experience</h4>
+              </div>
+              <div class="card-body">
+                <div class="accordion accordion-flush" id="experienceAccordion">
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="experienceAccordion-heading-1">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#experienceAccordion-collapse-1" aria-expanded="false"
+                        aria-controls="experienceAccordion-collapse-1">
+                        <div class="col-sm-3"><b>Oct 2024 - Jan 2025</b></div>
+                        <div class="col-sm-3">Freelance AI Math Consultant</div>
+                        <div class="col">Outlier AI</div>
+                      </button>
+                    </h2>
+
+                    <div id="experienceAccordion-collapse-1" class="accordion-collapse collapse"
+                      aria-labelledby="experienceAccordion-heading-1">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="experienceAccordion-heading-2">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#experienceAccordion-collapse-2" aria-expanded="false"
+                        aria-controls="experienceAccordion-collapse-2">
+                        <div class="col-sm-3"><b>Oct 2024 - (Present)</b></div>
+                        <div class="col-sm-3">Part-time Tutor</div>
+                        <div class="col">The Tutor's Pad</div>
+                      </button>
+                    </h2>
+
+                    <div id="experienceAccordion-collapse-2" class="accordion-collapse collapse"
+                      aria-labelledby="experienceAccordion-heading-2">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                        demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
       </div>
     </div>
 
-    <!--TODO Add info:
-            *  -->
+  </div>
 
-    <footer-template></footer-template>
-  </body>
+  </div>
+  </div>
+  </div>
+
+  <footer-template></footer-template>
+</body>
+
 </html>

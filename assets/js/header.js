@@ -32,7 +32,7 @@ class Navbar extends HTMLElement {
         <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="logo.png" alt="Logo">
+                <b>Markcus5</b>
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
